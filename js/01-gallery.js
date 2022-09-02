@@ -38,7 +38,7 @@ event.preventDefault();
         return
     }
 
-const instance = basicLightbox.create(`<img src="${event.target.dataset.source}">`)
+const instance = basicLightbox.create(`<img src="${event.target.dataset.source}" alt="${event.target.alt}">`)
 
 instance.show()
 
